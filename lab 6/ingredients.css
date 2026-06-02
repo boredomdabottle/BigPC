@@ -1,0 +1,104 @@
+.bun-top {
+  height: 78px;
+  width: 64%;
+  background: #d89442;
+  border-radius: 120px 120px 24px 24px;
+}
+
+.bun-bottom {
+  height: 35px;
+  width: 64%;
+  background: #c98435;
+  border-radius: 0 0 20px 20px;
+}
+
+.patty {
+  height: 42px;
+  width: 70%;
+  background: #7b3f1d;
+  border-radius: 18px;
+}
+
+.veggie-patty {
+  height: 40px;
+  width: 68%;
+  background: #4e6b2d;
+  border-radius: 18px;
+}
+
+.cheese {
+  height: 18px;
+  width: 68%;
+  background: #f6b73c;
+}
+
+.tomato {
+  height: 22px;
+  width: 56%;
+  background: #c73525;
+  border-radius: 14px;
+}
+
+.pickle {
+  height: 12px;
+  width: 55%;
+  background: #5f9b3d;
+  border-radius: 10px;
+}
+
+.onion {
+  height: 10px;
+  width: 60%;
+  background: #d8c0ff;
+  border-radius: 10px;
+}
+
+.lettuce {
+  height: 16px;
+  width: 72%;
+  background: #61b14d;
+  border-radius: 10px;
+}
+
+.sesame-row {
+  height: 12px;
+  width: 42%;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff7e8;
+  text-align: center;
+  margin: 0;
+  padding: 30px;
+}
+
+h1 {
+  background-color: #b43b22;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.menu-item {
+  background: white;
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 20px;
+  border: 3px solid #f0d4a4;
+}
+
+.price {
+  color: #2f7d32;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.burger div {
+  margin: 3px auto;
+}
+
+hr {
+  margin: 40px auto;
+  max-width: 700px;
+}
