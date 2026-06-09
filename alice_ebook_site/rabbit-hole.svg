@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="430" viewBox="0 0 700 430">
+<rect width="700" height="430" fill="#fff8e8"/>
+<ellipse cx="350" cy="360" rx="260" ry="35" fill="#d9c7a3"/>
+<circle cx="305" cy="170" r="55" fill="#f4d3b5"/><path d="M250 145 Q305 75 360 145" fill="#d18b65"/>
+<path d="M270 230 Q305 280 345 230 L370 350 L240 350 Z" fill="#8bb6d6"/>
+<circle cx="285" cy="170" r="6"/><circle cx="325" cy="170" r="6"/><path d="M290 195 Q305 205 320 195" stroke="#6d2b2b" fill="none" stroke-width="4"/>
+<ellipse cx="470" cy="185" rx="45" ry="65" fill="#f5f5f5" stroke="#4b2e1e" stroke-width="4"/>
+<path d="M450 130 L430 55 Q450 40 470 130" fill="#f5f5f5" stroke="#4b2e1e" stroke-width="4"/>
+<path d="M490 130 L520 55 Q540 45 510 140" fill="#f5f5f5" stroke="#4b2e1e" stroke-width="4"/>
+<circle cx="455" cy="180" r="5"/><circle cx="485" cy="180" r="5"/><path d="M465 195 Q470 203 475 195" stroke="#4b2e1e" fill="none" stroke-width="3"/>
+<text x="350" y="395" font-family="serif" font-size="26" text-anchor="middle" fill="#6d2b2b">Down the Rabbit-Hole</text>
+</svg>

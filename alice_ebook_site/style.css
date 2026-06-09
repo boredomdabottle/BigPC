@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Great+Vibes&family=Libre+Baskerville:wght@400;700&display=swap');
+
+:root {
+  --cream: #f4efe5;
+  --paper: #fff8ed;
+  --brown: #5b241f;
+  --red: #7a2d2a;
+  --ink: #1d1b19;
+  --shadow: rgba(0,0,0,.22);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--cream);
+  color: var(--ink);
+  font-family: "Libre Baskerville", Georgia, serif;
+  line-height: 1.45;
+}
+
+header, footer {
+  text-align: center;
+  padding: 1.5rem;
+}
+
+h1 {
+  font-family: "Great Vibes", cursive;
+  font-size: clamp(3rem, 8vw, 5rem);
+  margin: 1rem 0 .5rem;
+}
+
+h2, h3 {
+  font-family: "Cinzel Decorative", Georgia, serif;
+}
+
+nav {
+  margin: 1rem auto;
+}
+
+.nav-row {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-row a, .button-link {
+  color: var(--brown);
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: .6rem .9rem;
+  border-radius: 8px;
+}
+
+.nav-row a:hover, .button-link:hover {
+  background: #ead9c5;
+}
+
+main {
+  width: min(92%, 960px);
+  margin: 0 auto 2rem;
+}
+
+.card, article {
+  background: var(--paper);
+  padding: clamp(1.4rem, 4vw, 3rem);
+  border-radius: 16px;
+  box-shadow: 0 4px 16px var(--shadow);
+}
+
+.intro {
+  text-align: center;
+}
+
+.cover-img {
+  width: min(90%, 620px);
+  display: block;
+  margin: 2rem auto;
+  border: 5px solid #fff;
+  box-shadow: 0 3px 14px var(--shadow);
+}
+
+.chapter-title {
+  color: var(--red);
+  text-align: center;
+}
+
+.chapter-subtitle {
+  text-align: center;
+  color: var(--brown);
+  margin-bottom: 2rem;
+}
+
+p {
+  max-width: 45em;
+  margin: 1rem auto;
+  text-align: left;
+  line-height: 1.45;
+}
+
+.float-right {
+  float: right;
+  width: min(42%, 320px);
+  margin: .5rem 0 1rem 1.5rem;
+  border: 5px solid #fff;
+  box-shadow: 0 3px 12px var(--shadow);
+}
+
+.float-left {
+  float: left;
+  width: min(42%, 320px);
+  margin: .5rem 1.5rem 1rem 0;
+  border: 5px solid #fff;
+  box-shadow: 0 3px 12px var(--shadow);
+}
+
+.image-note {
+  font-size: .8rem;
+  color: #4d433b;
+}
+
+.bottom-nav {
+  border-top: 1px solid #c8b8a4;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  clear: both;
+}
+
+footer {
+  border-top: 1px solid #c8b8a4;
+  font-size: .9rem;
+}
+
+footer a {
+  color: var(--brown);
+}
+
+@media (max-width: 700px) {
+  .float-right, .float-left {
+    float: none;
+    width: 100%;
+    margin: 1rem auto;
+    display: block;
+  }
+
+  .nav-row {
+    gap: .35rem;
+  }
+}
